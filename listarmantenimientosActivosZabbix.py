@@ -19,7 +19,7 @@ payload = json.dumps({
     "params": {
         "output": ["name", "maintenanceid", "active_since", "active_till", "description"],
         "filter": {
-            "status": 0  # Solo mantenimientos activos
+            "status": 0  
         },
         "selectHostGroups": "extend",
         "selectTimeperiods": "extend",
